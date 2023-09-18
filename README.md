@@ -8,5 +8,5 @@ I'd like to have some navbars, sidebars, internal linking, and about 5 pages. Be
 
 ### Installation
 
-Straightforward as any github project
+Straightforward as any github project<br>
 Note: I uses `npm` in the original installation so be aware of that if you plan to fork this and prefer using `yarn` to add packages.
