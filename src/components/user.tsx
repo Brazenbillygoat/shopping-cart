@@ -4,14 +4,8 @@ type UserProps = {
   name: string;
   phoneNumber: number;
   email: string;
-}
+};
 
-const User = ({
-  name,
-  phoneNumber,
-  email,
-}: UserProps) => {
-
-}
+const User = ({ name, phoneNumber, email }: UserProps) => {};
 
 export default User;
