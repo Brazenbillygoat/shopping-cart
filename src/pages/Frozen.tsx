@@ -1,16 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-
-const FrozenText = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  height: 70vh;
-`;
+import { PageTitle } from "../components/PageTitle";
 
 const Frozen: React.FunctionComponent = () => {
-  return <FrozenText>Frozen</FrozenText>;
+  return <PageTitle title="Frozen" />
 };
 
 export default Frozen;

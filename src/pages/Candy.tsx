@@ -1,16 +1,23 @@
 import React from "react";
-import styled from "styled-components";
-
-const CandyText = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  height: 70vh;
-`;
+import { SaleItem } from "../components/SaleItem";
+import { CandyDataTemp } from "./CandyDataTemp";
+import { PageTitle } from "../components/PageTitle";
 
 const Candy: React.FunctionComponent = () => {
-  return <CandyText>Candy</CandyText>;
-};
+  return (
+  <>
+  <PageTitle title="Candy" />
+  {CandyDataTemp.map((item, index) => {
+    return (
+      <SaleItem
+        image={item.image}
+        price={item.price}
+        label={item.label}
+        description={item.description}
+      />
+    );
+  })}
+  </>
+)};
 
 export default Candy;
