@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { SaleItem } from "../components/SaleItem";
-import { CandyDataTemp } from "./CandyDataTemp";
 
 const HomeText = styled.div`
   display: flex;
@@ -12,22 +10,11 @@ const HomeText = styled.div`
 `;
 
 const Home: React.FunctionComponent = (): JSX.Element => {
-
   return (
-  <>
-  <HomeText>Home</HomeText>
-  {CandyDataTemp.map((item, index) => {
-    
-    return (
-      <SaleItem
-        image={item.image}
-        price={item.price}
-        label={item.label}
-        description={item.description}
-      />
-    );
-  })}
-  </>
-)};
+    <>
+      <HomeText>Home</HomeText>
+    </>
+  );
+};
 
 export default Home;
