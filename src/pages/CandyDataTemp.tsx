@@ -6,10 +6,10 @@ export const CandyDataTemp = [
     description: "Cake on a stick. Approximately 1-2 bites depending on the size of your mouth and your sweet tooth.",
   },
   {
-    image: "url",
+    image: "https://cdn.pixabay.com/photo/2013/08/10/18/13/candies-171342_1280.jpg",
     price: 4.00,
-    label: "",
-    description: "",
+    label: "Gummies",
+    description: "Gummies are a break from chocolate or chocolate is a break from gummies?",
   },
   {
     image: "url",
