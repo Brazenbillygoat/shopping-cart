@@ -1,24 +1,12 @@
 import React from "react";
-import styled from "styled-components";
-import { SaleItem, SaleItemProps } from "../components/SaleItem";
+import { SaleItem } from "../components/SaleItem";
 import { CandyDataTemp } from "./CandyDataTemp";
-
-const CandyText = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  height: 70vh;
-`;
-
-type CandyPageProps = {
-  SaleItems: SaleItemProps[];
-}
+import { PageTitle } from "../components/PageTitle";
 
 const Candy: React.FunctionComponent = () => {
   return (
   <>
-  <CandyText>Candy</CandyText>
+  <PageTitle title="Candy" />
   {CandyDataTemp.map((item, index) => {
     return (
       <SaleItem

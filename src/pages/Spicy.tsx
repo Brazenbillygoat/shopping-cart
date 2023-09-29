@@ -1,16 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-
-const SpicyText = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  height: 70vh;
-`;
+import { PageTitle } from "../components/PageTitle";
 
 const Spicy: React.FunctionComponent = () => {
-  return <SpicyText>Spicy</SpicyText>;
+  return <PageTitle title="Candy" />
 };
 
 export default Spicy;

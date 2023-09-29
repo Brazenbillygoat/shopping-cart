@@ -1,16 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-
-const RefrigeratedText = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  height: 70vh;
-`;
+import { PageTitle } from "../components/PageTitle";
 
 const Refrigerated: React.FunctionComponent = () => {
-  return <RefrigeratedText>Refrigerated</RefrigeratedText>;
+  return <PageTitle title="Refrigerated" />
 };
 
 export default Refrigerated;
