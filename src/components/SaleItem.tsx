@@ -1,4 +1,5 @@
 import React from "react";
+import { Button, Card } from "react-bootstrap";
 
 export type SaleItemProps = {
   // When referencing this url you may have to declare `new`
@@ -11,17 +12,15 @@ export type SaleItemProps = {
 
 export const SaleItem = ({image, price, label, description}: SaleItemProps) => {
   return (
-    <div className="card" style={{ width: "18rem" }}>
-      <img className="card-img-top" src={image} alt="Card image cap" style={{ width: "inherit" }} />
-      <div className="card-body">
-        <h5 className="card-title">{label}</h5>
-        <p className="card-text">
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={image} style={{ width: "inherit" }} />
+      <Card.Body>
+        <Card.Title>{label}</Card.Title>
+        <Card.Text>
           {description}
-        </p>
-        <a href={image} className="btn btn-primary">
-          Go somewhere
-        </a>
-      </div>
-    </div>
+        </Card.Text>
+        <Button variant="primary">${price}</Button>
+      </Card.Body>
+    </Card>
   );
 }
