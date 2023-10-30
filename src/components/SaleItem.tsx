@@ -12,8 +12,8 @@ export type SaleItemProps = {
 
 export const SaleItem = ({image, price, label, description}: SaleItemProps) => {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={image} style={{ width: "inherit" }} />
+    <Card className="sale-item-card">
+      <Card.Img className="sale-item-image" variant="top" src={image} />
       <Card.Body>
         <Card.Title>{label}</Card.Title>
         <Card.Text>
