@@ -59,3 +59,53 @@
   height: 250px;
   width: inherit;
 }
+
+.sidebar {
+  background-color: bisque;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  height: 100%;
+  opacity: .85;
+  position: absolute;
+  top: 0;
+}
+
+.sidebar-close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 1.5rem;
+  padding-top: .25rem;
+}
+
+.sidebar-header {
+  display: flex;
+}
+
+.sidebar-link {
+  padding: .25rem;
+}
+
+.sidebar-links-container {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  .nav-link {
+    color: #434343;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+}
+
+.sidebar-open-button {
+  display: flex;
+}
+
+.sidebar-title {
+  font-size: 2rem;
+  margin-bottom: 0;
+  /* Offcanvas was setting a bottom margin that I didn't want */
+}
