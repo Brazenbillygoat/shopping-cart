@@ -18,19 +18,43 @@ export const CandyDataTemp = [
   {
     image: "url",
     price: 5.0,
-    label: "",
+    label: "Sour Patch Kids",
     description: "",
   },
   {
     image: "url",
     price: 6.0,
-    label: "",
+    label: "Butterfingers",
     description: "",
   },
   {
     image: "url",
     price: 2.0,
-    label: "",
+    label: "Reeses",
+    description: "",
+  },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Swedish Fish",
+    description: "",
+  },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Rollo",
+    description: "",
+  },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Werther's Originals",
+    description: "",
+  },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Peppermints",
     description: "",
   },
 ];
