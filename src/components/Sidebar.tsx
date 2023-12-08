@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import * as FaIcons from "react-icons/fa";
 import { SidebarData } from "./SidebarData";
-import styled from "styled-components";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 const Sidebar = () => {
@@ -16,9 +11,42 @@ const Sidebar = () => {
 
   return (
     <>
-      <Button className="menu-button sidebar-open-button" variant="primary" onClick={handleShow}>
+      <button
+        className="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasWithBackdrop"
+        aria-controls="offcanvasWithBackdrop"
+      >
+        Enable backdrop
+      </button>
+
+      <div
+        className="offcanvas offcanvas-start"
+        tabIndex={-1}
+        id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel"
+      >
+        <div className="offcanvas-header">
+          <h5 className="offcanvas-title" id="offcanvasWithBackdropLabel">
+            Offcanvas with backdrop
+          </h5>
+          <button
+            type="button"
+            className="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            <FaArrowLeftLong />
+          </button>
+        </div>
+        <div className="offcanvas-body">
+          <p>I'm the offCanvas body</p>
+        </div>
+      </div>
+      {/* <button className="menu-button sidebar-open-button" variant="primary" onClick={handleShow}>
         Menu&nbsp;<FaArrowRightLong />
-      </Button>
+      </button>
 
       <Offcanvas className="sidebar" show={show} onHide={handleClose}>
         <Offcanvas.Header className="sidebar-header">
@@ -42,7 +70,7 @@ const Sidebar = () => {
             })}
           </ul>
         </Offcanvas.Body>
-      </Offcanvas>
+      </Offcanvas> */}
     </>
   );
 };
