@@ -4,9 +4,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -14,20 +11,23 @@
 }
 
 .page-title {
-  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 50px;
   height: 20vh;
 }
 
-.sale-item-card {
+.sale-item-card-content {
   background-color: gainsboro;
   border-radius: 1% 8%;
   height: 100%;
   margin: 1rem;
   padding: .5rem;
   width: 18rem;
+}
+
+.sale-item-card {
+display: inline-flex;
 }
 
 .sale-item-image {
