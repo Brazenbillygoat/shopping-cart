@@ -57,4 +57,28 @@ export const CandyDataTemp = [
     label: "Peppermints",
     description: "",
   },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Mike & Ike",
+    description: "",
+  },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Cheese",
+    description: "",
+  },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Cupcake",
+    description: "",
+  },
+  {
+    image: "url",
+    price: 2.0,
+    label: "Licorice",
+    description: "",
+  },
 ];
