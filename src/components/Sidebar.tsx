@@ -8,7 +8,7 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 const Sidebar = () => {
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => setTimeout(() => setShow(false), 3);
   const handleShow = () => setShow(true);
 
   return (
@@ -22,14 +22,19 @@ const Sidebar = () => {
         <FaArrowRightLong />
       </Button>
 
-      <Offcanvas className="sidebar" show={show} onHide={handleClose}>
+      <Offcanvas
+        className="sidebar"
+        show={show}
+        onHide={handleClose}
+        onBlur={handleClose}
+      >
         <Offcanvas.Header className="sidebar-header">
           <h1 className="sidebar-title">Categories:</h1>
           <Button className="sidebar-close-button" onClick={handleClose}>
-              <FaArrowLeftLong
-                style={{ marginBottom: "-.1rem", marginRight: ".1rem" }}
-              />
-              Close
+            <FaArrowLeftLong
+              style={{ marginBottom: "-.1rem", marginRight: ".1rem" }}
+            />
+            Close
           </Button>
         </Offcanvas.Header>
         <Offcanvas.Body>
