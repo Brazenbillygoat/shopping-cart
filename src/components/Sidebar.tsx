@@ -8,7 +8,7 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 const Sidebar = () => {
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setTimeout(() => setShow(false), 3);
+  const handleClose = () => setTimeout(() => setShow(false), 30);
   const handleShow = () => setShow(true);
 
   return (
