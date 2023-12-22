@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { TiThMenu } from "react-icons/ti";
 
 const Sidebar = () => {
   const [show, setShow] = useState(false);
@@ -14,12 +15,11 @@ const Sidebar = () => {
   return (
     <>
       <Button
-        className="menu-button sidebar-open-button"
-        variant="primary"
+        className="sidebar-open-button"
+        
         onClick={handleShow}
       >
-        Menu&nbsp;
-        <FaArrowRightLong />
+        <TiThMenu size={"2rem"} />
       </Button>
 
       <Offcanvas

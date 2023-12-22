@@ -37,11 +37,11 @@ display: inline-flex;
 }
 
 .sidebar {
-  background-color: bisque;
+  background-color: rgb(242, 198, 144);
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
   height: 100%;
-  opacity: .85;
+  opacity: .9;
   position: absolute;
   top: 0;
 }
@@ -70,7 +70,7 @@ display: inline-flex;
   font-size: 1.5rem;
   margin-top: .5rem;
   .nav-link {
-    color: #434343;
+    color: #323232;
   }
   .nav-link:hover {
     color: #000;
@@ -78,6 +78,9 @@ display: inline-flex;
 }
 
 .sidebar-open-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   display: flex;
 }
 
