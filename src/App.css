@@ -27,6 +27,7 @@
 }
 
 .sale-item-card {
+  background-color: #E0BAA4;
 display: inline-flex;
 }
 
@@ -37,7 +38,7 @@ display: inline-flex;
 }
 
 .sidebar {
-  background-color: rgb(242, 198, 144);
+  background-color: #DBE1AF;
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
   height: 100%;

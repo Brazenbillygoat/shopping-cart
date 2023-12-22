@@ -10,3 +10,10 @@ I'd like to have some navbars, sidebars, internal linking, and about 5 pages. Be
 
 Straightforward as any github project<br>
 Note: I uses `npm` in the original installation so be aware of that if you plan to fork this and prefer using `yarn` to add packages.
+
+### Notes
+
+Color Palette:<br>
+#5CE0DB ~ complimentary ~ #E0C6B8<br>
+#C5E0E0 ~ complimentary ~ #E0BAA4<br>
+#DBE1AF<br>
