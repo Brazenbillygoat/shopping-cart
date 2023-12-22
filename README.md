@@ -14,6 +14,6 @@ Note: I uses `npm` in the original installation so be aware of that if you plan 
 ### Notes
 
 Color Palette:<br>
-#B5A2F9 ~ complimentary ~ #FAEB66<br>
+#CFC8F4 ~ complimentary ~ #FAE866<br>
 #FAB4A0 ~ complimentary ~ #C3FAEA<br>
 #FACB7F<br>
