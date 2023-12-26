@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: transparent;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -12,6 +12,7 @@
 
 .page-title {
   align-items: center;
+  background-color: transparent;
   justify-content: center;
   font-size: 50px;
   height: 20vh;
@@ -84,6 +85,7 @@ display: inline-flex;
   border: none;
   cursor: pointer;
   display: flex;
+  position: absolute;
 }
 
 .sidebar-title {
