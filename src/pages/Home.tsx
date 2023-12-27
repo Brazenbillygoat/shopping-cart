@@ -10,10 +10,10 @@ const Home: React.FunctionComponent = (): JSX.Element => {
         <ParallaxLayer>
           Hi
         </ParallaxLayer>
-        <ParallaxLayer offset={1}>
+        <ParallaxLayer offset={1} speed={0.5}>
           Hello
         </ParallaxLayer>
-        <ParallaxLayer offset={2}>
+        <ParallaxLayer offset={2} speed={2.5}>
           And 
         </ParallaxLayer>
         <ParallaxLayer offset={3}>
