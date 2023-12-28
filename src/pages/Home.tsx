@@ -7,25 +7,16 @@ const Home: React.FunctionComponent = (): JSX.Element => {
     <>
       <PageTitle title="Home" />
       <Parallax pages={6}>
-        <ParallaxLayer>
-          Hi
-        </ParallaxLayer>
+        <ParallaxLayer>Hi</ParallaxLayer>
         <ParallaxLayer offset={1} speed={0.5}>
           Hello
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={2.5}>
-          And 
+          And
         </ParallaxLayer>
-        <ParallaxLayer offset={3}>
-          How 
-        </ParallaxLayer>
-        <ParallaxLayer offset={4}>
-          Are
-        </ParallaxLayer>
-        <ParallaxLayer offset={5}>
-          You?  
-        </ParallaxLayer>
-
+        <ParallaxLayer offset={3}>How</ParallaxLayer>
+        <ParallaxLayer offset={4}>Are</ParallaxLayer>
+        <ParallaxLayer offset={5}>You?</ParallaxLayer>
       </Parallax>
     </>
   );
