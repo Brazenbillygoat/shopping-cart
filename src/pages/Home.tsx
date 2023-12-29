@@ -1,14 +1,20 @@
 import React from "react";
 import { PageTitle } from "../components/PageTitle";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import tree_branches from "../Images/tree_branches.png";
 
 const Home: React.FunctionComponent = (): JSX.Element => {
   return (
     <>
       <PageTitle title="Home" />
       <Parallax pages={6}>
-        <ParallaxLayer>Hi</ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5}>
+        <ParallaxLayer offset={0}>Hi</ParallaxLayer>
+        <ParallaxLayer
+          offset={1}
+          speed={0.5}
+          sticky={{start: 1.0, end: 5.0}}
+          style={{ backgroundImage: `url(${tree_branches})`}}
+        >
           Hello
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={2.5}>

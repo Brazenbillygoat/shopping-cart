@@ -4,7 +4,7 @@ const Header = () => {
   const theme = useTheme();
   return (
     <div style={{ backgroundColor: theme }}>
-      Hello and welcome to your own cooking app experience!
+      Placeholder for alerts
     </div>
   );
 };
