@@ -8,12 +8,14 @@ const Home: React.FunctionComponent = (): JSX.Element => {
     <>
       <PageTitle title="Home" />
       <Parallax pages={6}>
-        <ParallaxLayer offset={0}>Hi</ParallaxLayer>
+        <ParallaxLayer offset={0} style={{ opacity: ".5" }}>
+          Hi
+        </ParallaxLayer>
         <ParallaxLayer
           offset={1}
           speed={0.5}
-          sticky={{start: 1.0, end: 5.0}}
-          style={{ backgroundImage: `url(${tree_branches})`}}
+          sticky={{ start: 0.9, end: 4.9 }}
+          style={{ backgroundImage: `url(${tree_branches})`, height: "200vh" }}
         >
           Hello
         </ParallaxLayer>

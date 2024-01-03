@@ -1,11 +1,10 @@
 body {
   /* backdrop-filter: blur(100px);
-  background-attachment: fixed;
+  background-attachment: fixed; */
   background: linear-gradient(#555555, transparent), url("./Images/tree_branches.png");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0; */
+  /* margin: 0; */
   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
