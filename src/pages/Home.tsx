@@ -15,7 +15,6 @@ const Home: React.FunctionComponent = (): JSX.Element => {
           offset={1}
           speed={0.5}
           sticky={{ start: 0.9, end: 4.9 }}
-          style={{ backgroundImage: `url(${tree_branches})`, height: "200vh" }}
         >
           Hello
         </ParallaxLayer>
