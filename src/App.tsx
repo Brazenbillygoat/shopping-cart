@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { ThemeProvider } from "./providers/theme-provider";
-import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -9,6 +8,7 @@ import Candy from "./pages/Candy";
 import Refrigerated from "./pages/Refrigerated";
 import Frozen from "./pages/Frozen";
 import Spicy from "./pages/Spicy";
+import Header from "./components/Header";
 
 const App = () => {
   return (
